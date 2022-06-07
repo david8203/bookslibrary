@@ -9,10 +9,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class BooksActivity {
+public class BooksActivity extends AppCompatActivity {
     @BindView(R.id.locationTextView) TextView mLocationTextView;
     @BindView(R.id.listView) ListView mListView;
     private String[] books = new String[] {"Scientific", "Nature","Programming", "Mathematics","Romance","Horror","Investigation and crimes" ,"kids","adventure","historic","Mystery","Games","Sports","Inspiration","wealth","Religion","sci-fi","law"};
