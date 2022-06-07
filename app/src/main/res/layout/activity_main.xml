@@ -33,7 +33,7 @@
         android:layout_above="@+id/findBooksButton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:background="green"
+        android:background="@color/green"
         android:fontFamily="aladin"
         android:hint="Enter title"
         android:padding="5dp" />
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="red"
+        android:background="@color/red"
         android:fontFamily=""
         android:text="find Books"
         android:textColor="@color/black"
