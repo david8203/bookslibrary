@@ -44,7 +44,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="red"
-        android:fontFamily="@font/akronim"
+        android:fontFamily=""
         android:text="find Books"
         android:textColor="@color/black"
         android:textSize="35sp" />
