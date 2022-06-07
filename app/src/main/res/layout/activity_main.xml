@@ -37,5 +37,16 @@
         android:fontFamily="aladin"
         android:hint="Enter title"
         android:padding="5dp" />
+    <Button
+        android:id="@+id/findBooksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="red"
+        android:fontFamily="@font/akronim"
+        android:text="find Books"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
